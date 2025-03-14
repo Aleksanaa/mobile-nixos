@@ -25,6 +25,8 @@ mobile-nixos.kernel-builder {
       url = "https://github.com/torvalds/linux/commit/75ee2ff7b8427645f294098d9c6f005399f4ce94.patch";
       hash = "sha256-VJnyQfwwjnfzMPZkfSVd99vKxGUvYNn1qwC3Kf6crJA=";
     })
+
+    ./readd_mrbland_rev1.patch
   ];
 
   isModular = true;
