@@ -17,6 +17,8 @@ mobile-nixos.kernel-builder rec {
     ./stop_unconditionally_power_dsi.patch
 
     ./readd_mrbland_rev1.patch
+
+    ./remove_bwmon_nodes.patch
   ];
 
   isModular = true;
